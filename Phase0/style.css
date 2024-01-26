@@ -1,0 +1,110 @@
+html {
+  background-color: rgb(247, 248, 252);
+}
+
+/* Desktop Navbar */
+#desktop-nav,
+.nav-links {
+  display: flex;
+}
+#desktop-nav {
+  justify-content: space-around;
+}
+
+.nav-links {
+  background-color: rgb(255, 255, 255);
+  gap: 1.5rem;
+  list-style: none;
+  font-size: 1.5rem;
+  float: right;
+  padding-left: 152vh;
+  font-size: 13px;
+  position: relative;
+  height: 25px;
+  align-items: center;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Profile Page */
+
+#profile-page {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 10vh 0 10vh;
+}
+
+.profile-photo {
+  display: flex;
+  justify-content: left;
+  height: 20vh;
+  width: 20vh;
+}
+
+#about-me {
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.role {
+  font-size: 15px;
+}
+
+.edit {
+  display: flex;
+  gap: 5rem;
+}
+.edit-edit,
+.edit-resume {
+  border: 1px solid;
+  margin: auto;
+  width: 90px;
+  text-align: center;
+}
+
+#about-me {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+.box-row1 {
+  float: left;
+}
+
+.box-row2 {
+  float: right;
+  margin-left: 120px;
+}
+
+table {
+  width: 100vh;
+}
+
+/* Form page */
+
+#form-page {
+  background-color: rgb(255, 255, 255);
+  margin: 5vh 10vh 0 10vh;
+}
+
+.form-page-layout input {
+  display: flex;
+  text-align: left;
+  margin-left: 5px;
+  margin-right: 20px;
+  position: relative;
+  height: 100%;
+  width: 45%;
+  padding-right: 100vh;
+  gap: 1.5rem;
+}
